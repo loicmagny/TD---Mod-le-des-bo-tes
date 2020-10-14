@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Sarenza</title>
+    </head>
+
+    <body>
+        <!-- Debut du menu -->
+        <header>
+            <nav class="nav_header">
+                <ul class="nav-list">
+                    <li class="nav-btn">
+                        <a href="#" class="nav-link">Homme</a>
+                    </li>
+                    <li class="nav-btn"><a href="#" class="nav-link">Femme</a></li>
+                    <li class="nav-btn"><a href=" # " class="nav-link">Enfant</a></li>
+                </ul>
+                <img class="logosar " src="assets/img/Logo_Sarenza.png " alt="logo Sarenza " />
+                <ul class="nav-list ">
+                    <li class="nav-btn"><a href="# " class="nav-link">F.A.Q</a></li>
+                    <li class="nav-btn"><a href="# " class="nav-link">Compte</a></li>
+                    <li class="nav-btn"><a href=" # " class="nav-link">Mes favoris</a></li>
+                    <li class="nav-btn"><a href="# " class="nav-link">Panier</a></li>
+                </ul>
+                <div class="listhidden ">
+                    <ul class="nav-list-hidden">
+                        <li class="nav-btn nav-btn-hidden" id="new"><a href="# " class="nav-link">Nouveautés</a>
+                        </li>
+                        <li class="nav-btn nav-btn-hidden" id="shoe"><a href="# " class="nav-link">Chaussures</a>
+                        </li>
+                        <li class="nav-btn nav-btn-hidden" id="clothes"><a href="# " class="nav-link">Vêtements</a>
+                        </li>
+                        <li class="nav-btn nav-btn-hidden" id="bags"><a href="# " class="nav-link">Sacs et
+                                Accesoires</a></li>
+                        <li class="nav-btn nav-btn-hidden" id="brands"><a href="# " class="nav-link">Marques</a>
+                        </li>
+                        <li class="nav-btn nav-btn-hidden" id="weather"><a href="# " class="nav-link">La minute
+                                météo</a></li>
+                        <li class="nav-btn nav-btn-hidden" id="private"><a href="# " class="nav-link">Ventes
+                                Privées</a></li>
+                        <div id="site-search">
+                            <input type="text " name="search " placeholder="Effectuer une recherche " /><label
+                                for="search "><span class="material-icons "> search</span>
+                        </div>
+                    </ul>
+
+                </div>
+                <p>Retour <a href="# ">Accueil</a>/<a href="# ">Marques</a>/<a href="# "> Marques Chaussures
+                        Hommes</a>/<a href="# ">Chaussures Hommes</a>
+                </p>
+            </nav>
+
+        </header>
+        <!-- Fin du menu -->
+
+        <!-- Debut du main -->
+        <main>
+            <div class="main-content">
+                <div class="filters">
+                    <h2>Filtres</h2>
+                    <div class="brand">
+                        <hr>
+                        <h3>Marques</h3>
+                        <label for="search">
+                            <input type="text " name="search" placeholder="Rechercher une marque" /></label>
+                        <div>
+                            <input type="checkbox" name="brand" />
+                            <label for="brand">1789 CALA</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="brand">
+                            <label for="brand ">Adidas Originals</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="brand">
+                            <label for="brand ">Adidas Performance</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="brand">
+                            <label for="brand">Aigle</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="brand">
+                            <label for="brand ">Aldo</label>
+                        </div>
+                    </div>
+                    <h3>Pointures/Tailles</h3>
+                    <div id="size ">
+                        <label><button name="shoe-size" class="shoe-size">35</button></label>
+                        <label><button name="shoe-size" class="shoe-size">36</button></label>
+                        <label><button name="shoe-size" class="shoe-size">37</button></label>
+                        <label><button name="shoe-size" class="shoe-size">38</button></label>
+                        <label><button name="shoe-size" class="shoe-size">39</button></label>
+                        <label><button name="shoe-size" class="shoe-size">40</button></label>
+                        <label><button name="shoe-size" class="shoe-size">41</button></label>
+                        <label><button name="shoe-size" class="shoe-size">42</button></label>
+                        <label><button name="shoe-size" class="shoe-size">43</button></label>
+                        <label><button name="shoe-size" class="shoe-size">44</button></label>
+                        <label><button name="shoe-size" class="shoe-size">45</button></label>
+                        <label><button name="shoe-size" class="shoe-size">46</button></label>
+                        <label><button name="shoe-size" class="shoe-size">47</button></label>
+                        <label><button name="shoe-size" class="shoe-size">48</button></label>
+                        <label><button name="shoe-size" class="shoe-size">49</button></label>
+                        <label><button name="shoe-size" class="shoe-size">50</button></label>
+                        <label><button name="shoe-size" class="shoe-size">51</button></label>
+                        <label><button name="shoe-size" class="shoe-size">52</button></label>
+                    </div>
+                    <div id="type ">
+                        <h3>Type</h3>
+                        <ul>
+                            <li><a href="#" class="filter-link">Baskets</a></li>
+                            <li><a href="#" class="filter-link">Bottes</a></li>
+                            <li><a href="#" class="filter-link">Bottines et boots</a></li>
+                            <li><a href="#" class="filter-link">Chaussons</a></li>
+                            <li><a href="#" class="filter-link">Chaussures a boucle</a></li>
+                            <li><a href="#" class="filter-link">Chaussures a lacets</a></li>
+                            <li><a href="#" class="filter-link">Chaussures a scratch</a></li>
+                            <li><a href="#" class="filter-link">Chaussures de sport</a></li>
+                            <li><a href="#" class="filter-link">Espadrilles</a></li>
+                            <li><a href="#" class="filter-link">Mocassins</a></li>
+                            <li><a href="#" class="filter-link">Sandales et nu-pieds</a></li>
+                            <li><a href="#" class="filter-link">Tongs</a></li>
+                        </ul>
+                    </div>
+                    <div id="color ">
+                        <h3>Couleur</h3>
+                        <ul>
+                            <li><a href="#" class="filter-link">Argent</a></li>
+                            <li><a href="#" class="filter-link">Blanc</a></li>
+                            <li><a href="#" class="filter-link">Bordeaux</a></li>
+                            <li><a href="#" class="filter-link">Jaune</a></li>
+                            <li><a href="#" class="filter-link">Multicolore</a></li>
+                            <li><a href="#" class="filter-link">Orange</a></li>
+                            <li><a href="#" class="filter-link">Rouge</a></li>
+                            <li><a href="#" class="filter-link">Violet</a></li>
+                            <li><a href="#" class="filter-link">Beige</a></li>
+                            <li><a href="#" class="filter-link">Bleu</a></li>
+                            <li><a href="#" class="filter-link">Gris</a></li>
+                            <li><a href="#" class="filter-link">Marron</a></li>
+                            <li><a href="#" class="filter-link">Noir</a></li>
+                            <li><a href="#" class="filter-link">Rose</a></li>
+                            <li><a href="#" class="filter-link">Vert</a></li>
+                        </ul>
+                    </div>
+
+                    <div id="Sale">
+                        <h3>Démarque</h3>
+                        <div>
+                            <input type="checkbox" name="reduction" />
+                            <label for="reduction">10%</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="reduction" />
+                            <label for="reduction">20%</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="reduction" />
+                            <label for="reduction">30%</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="reduction" />
+                            <label for="reduction">40%</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="reduction" />
+                            <label for="reduction">50%</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="reduction" />
+                            <label for="reduction">60%</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="reduction" />
+                            <label for="reduction">70%</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="reduction" />
+                            <label for="reduction">80%</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="reduction" />
+                            <label for="reduction">90%</label>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--Debut presentations des chaussures   -->
+
+
+                <div class="catalogue">
+                    <div class="boxshoes">
+                        <img class="shoesimg " src="assets/img/shoes1.jpg " alt=" " width=" ">
+                        <div class="text-shoes ">
+                            <p class="new ">New</p>
+                            <p class="shoestype ">New Balance</p>
+                            <ul>
+                                <li class="ref ">MI574</li>
+                                <li class="price ">100.11€</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="boxshoes ">
+                        <img class="shoesimg " src="assets/img/shoes2.jpg " alt=" " width=" ">
+                        <div class="text-shoes ">
+                            <p class="new ">New</p>
+                            <p class="shoestype ">New Balance</p>
+                            <ul>
+                                <li class="ref ">MI574</li>
+                                <li class="price ">100.11€</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="boxshoes ">
+                        <img class="shoesimg " src="assets/img/shoes3.jpg " alt=" " width=" ">
+                        <div class="text-shoes ">
+                            <p class="new ">New</p>
+                            <p class="shoestype ">New Balance</p>
+                            <ul>
+                                <li class="ref ">MI574</li>
+                                <li class="price ">100.11€</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="boxshoes ">
+                        <img class="shoesimg " src="assets/img/shoes3.jpg " alt=" " width=" ">
+                        <div class="text-shoes ">
+                            <p class="new ">New</p>
+                            <p class="shoestype ">New Balance</p>
+                            <ul>
+                                <li class="ref ">MI574</li>
+                                <li class="price ">100.11€</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="boxshoes ">
+                        <img class="shoesimg " src="assets/img/shoes6.jpg " alt=" " width=" ">
+                        <div class="text-shoes ">
+                            <p class="new ">New</p>
+                            <p class="shoestype ">New Balance</p>
+                            <ul>
+                                <li class="ref ">MI574</li>
+                                <li class="price ">100.11€</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="boxshoes ">
+                        <img class="shoesimg " src="assets/img/shoes1.jpg " alt=" " width=" ">
+                        <div class="text-shoes ">
+                            <p class="new ">New</p>
+                            <p class="shoestype ">New Balance</p>
+                            <ul>
+                                <li class="ref ">MI574</li>
+                                <li class="price ">100.11€</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="boxshoes ">
+                        <img class="shoesimg " src="assets/img/shoes2.jpg " alt=" " width=" ">
+                        <div class="text-shoes ">
+                            <p class="new ">New</p>
+                            <p class="shoestype ">New Balance</p>
+                            <ul>
+                                <li class="ref ">MI574</li>
+                                <li class="price ">100.11€</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="boxshoes ">
+                        <img class="shoesimg " src="assets/img/shoes3.jpg " alt=" " width=" ">
+                        <div class="text-shoes ">
+                            <p class="new ">New</p>
+                            <p class="shoestype ">New Balance</p>
+                            <ul>
+                                <li class="ref ">MI574</li>
+                                <li class="price ">100.11€</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="boxshoes ">
+                        <img class="shoesimg " src="assets/img/shoes4.jpg " alt=" " width=" ">
+                        <div class="text-shoes ">
+                            <p class="new ">New</p>
+                            <p class="shoestype ">New Balance</p>
+                            <ul>
+                                <li class="ref ">MI574</li>
+                                <li class="price ">100.11€</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="boxshoes ">
+                        <img class="shoesimg " src="assets/img/shoes5.jpg " alt=" " width=" ">
+                        <div class="text-shoes ">
+                            <p class="new ">New</p>
+                            <p class="shoestype ">New Balance</p>
+                            <ul>
+                                <li class="ref ">MI574</li>
+                                <li class="price ">100.11€</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="boxshoes ">
+                        <img class="shoesimg " src="assets/img/shoes6.jpg " alt=" " width=" ">
+                        <div class="text-shoes ">
+                            <p class="new ">New</p>
+                            <p class="shoestype ">New Balance</p>
+                            <ul>
+                                <li class="ref ">MI574</li>
+                                <li class="price ">100.11€</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Fin presentations des chaussures -->
+            <div class="bottom ">
+                <div id="caracteristics">
+                    <div class="icon-section ">
+                        <img src="https://img.icons8.com/ios/50/000000/customer-support.png "
+                            alt="Service client 6 jours sur 7 " />
+                        <p>Service client 6 jours sur 7</p>
+                    </div>
+                    <div class="icon-section ">
+                        <img src="https://img.icons8.com/ios/50/000000/last-24-hours.png " alt="Livraison en 24h* " />
+                        <p>Livraison en 24h*</p>
+                    </div>
+                    <div class="icon-section ">
+                        <img src="https://img.icons8.com/ios/50/000000/100.png "
+                            alt="Retour 100% gratuit avant 100 jours " />
+                        <p>Retour 100% gratuit avant 100 jours</p>
+                    </div>
+                    <div class="icon-section ">
+                        <img src="https://img.icons8.com/ios/50/000000/card-in-use.png " alt="paiement en 3 fois " />
+                        <p>paiement en 3 fois</p>
+                    </div>
+                </div>
+                <hr>
+                <div id="offer">
+                    <div id="offer-text">
+                        <img src="https://img.icons8.com/ios/50/000000/gift.png " alt="icône de cadeau" />
+                        <p>20€ OFFERTS*</p>
+                    </div>
+                    <p>En vous abonnant à notre incroyable Newsletter**</p>
+                    <p>Et retrouvez nos actus et offres exclusives</p>
+                    <div class="contact ">
+                        <label for="email ">E-mail
+                            <input type="mail " name="mail " placeholder="Votre email "></label>
+                    </div>
+                    <div class="btns ">
+                        <button type="submit ">Femme</button>
+                        <button type="submit ">Homme</button>
+                    </div>
+
+                    <div>
+                        <p>**Newsletter = lettre d’information, offres et bons plans Sarenza. En vous abonnant, vous
+                            autorisez Sarenza (société Monoprix Online) à utiliser votre email et vos cookies afin de
+                            vous proposer des offres adaptées et à réaliser
+                            des études. Seuls nos services habilités et nos prestataires d’emailing ont accès à vos
+                            données. Nous les conservons 5 ans à compter de la fin de la relation commerciale (et vous
+                            pouvez vous désabonner à tout moment). Pour
+                            faire valoir vos droits, cliquez ici.</p>
+                        <a href=" ">*voir les conditions de l'offre</a>
+                        <hr>
+                    </div>
+                </div>
+                <div class="help ">
+                    <div id="help ">
+                        <h2>Besoin d'aide ?</h2>
+                        <p id="back-to-line">Toutes les réponses a vos questions dans notre page FAQ ci dessous </p>
+                        <p><a href="https://www.sarenza.com/faq"><strong>Consultez les FAQ</strong></a></p>
+                        <p><span id="colornew">Nouveau!</span>
+                            <a href="https://www.sarenza.com/e-label-chronopost"> Retour par QR Code</a>
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="prevention ">
+                        <h2>#NERIENLAISSERPASSER</h2>
+                        <h2>Victime ou témoins de violences conjugales ?</h2>
+                        <p>Appel au 17 ou SMS alerte au 114</p>
+                        <p> Service d'écoute au 3919 du Lundi au Samedi de 9h à 19h </p>
+                        <p>Signalement sur <a href="arretonslesviolences.gouv.fr ">arretonslesviolences.gouv.fr</a></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <hr />
+        </main>
+        <!-- Fin du main -->
+        <!-- Footer -->
+        <footer>
+            <div class="footer-section ">
+                <div class="section ">
+                    <p><strong>NOS CLIENTS NOUS AIMENT ET </p>
+                    <p> C'EST RÉCIPROQUE</strong></p>
+                    <div class="ratings ">
+                        <h2 class="ratings ">4.7/5</h2>
+                        <span class="fa fa-star checked "></span>
+                        <span class="fa fa-star checked "></span>
+                        <span class="fa fa-star checked "></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                        <p id="votes">14 742 avis</p>
+                    </div>
+
+                </div>
+                <div class="section ">
+                    <h2>
+                        <strong>A Propos de Sarenza</strong>
+                    </h2>
+                    <p>
+                        <a href="https://www.sarenza.com/qui-sommes-nous-recompenses ">Nos récompenses & engagements</a>
+                    </p>
+                    <p>
+                        <a href="https://sarenza.welcomekit.co/ ">Recrutement</a>
+                    </p>
+
+                    <p>
+                        <strong>Conseils</strong></a>
+                    </p>
+                    <p>
+                        <a href="https://www.sarenza.com/conseils-pointures ">Guides des tailles</a>
+                    </p>
+                    <p>
+                        <a href="https://www.sarenza.com/happy-shoes ">Partagez vos conseils sur le tchat</a>
+                    </p>
+                </div>
+                <div class="section ">
+                    <p>
+                        <strong>Services et offres</strong>
+                    </p>
+                    <p>
+                        <a href="https://www.sarenza.com/chaussure-marque ">631 marques</a>
+                    </p>
+                    <p>
+                        <a href="https://www.sarenza.com/exclusivites-sarenza ">Les créations Sarenza</a>
+                    </p>
+                    <p>
+                        <a href="https://www.sarenza.com/tout-accessoires ">Accesoires chaussures</a>
+                    </p>
+                    <p>
+                        <a href="https://www.sarenza.com/chaussures-sacs ">Tous nos produits</a>
+                    </p>
+                    <p>
+                        <a href="https://www.sarenza.com/chaussure-pas-cher ">Promotions</a>
+                    </p>
+                    <p>
+                        <a href="https://www.sarenza.com/code-promo-sarenza ">Code promo Sarenza</a>
+                    </p>
+                    <p>
+                        <a href="https://www.sarenza.com/carte-cadeau ">Offrir une e-carte cadeau</a>
+                    </p>
+                    <p>
+                        <a href="https://www.sarenza.com/garanties ">Tous nos services</a>
+                    </p>
+                </div>
+                <div class="section ">
+                    <p>
+                        <strong>Contacts</strong>
+                    </p>
+                    <p>
+                        <a href="https://www.sarenza.com/service-client ">Service Client</a>
+                    </p>
+                    <p>
+                        <a href="https://www.sarenza.com/affiliation-sarenza ">Devenir affilié</a>
+                    </p>
+                    <p>
+                        <a href="https://www.sarenza.com/devenir-partenaire ">Devenir partenaire</a>
+                    </p>
+                    <p>
+                        <a href="https://www.sarenza.com/contact-presse-sarenza ">Press room</a>
+                    </p>
+                    <p>
+                        <strong>Suivez-nous</strong>
+                    </p>
+                    <div class="social-media ">
+                        <a href="https://fr-fr.facebook.com/sarenza.com/ "><img
+                                src="https://img.icons8.com/material/24/000000/facebook--v1.png " /></a>
+                        <a href="https://www.instagram.com/sarenza/ "><img
+                                src="https://img.icons8.com/ios/24/000000/instagram-new.png " /></a>
+                        <a href="https://twitter.com/sarenza?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor "><img
+                                src="https://img.icons8.com/material/24/000000/twitter--v1.png " /></a>
+
+                        <a href="https://www.snapchat.com/add/sarenza_fr "><img
+                                src="https://img.icons8.com/material/24/000000/snapchat.png " /></a>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+            <div id="paymentlogo ">
+                <img src="assets/img/paye.png " alt="moyens de paiement " /> </div>
+            <div class="legal ">
+                <a href="# " class="legal-link ">*CONDITION DES OFFRES EN COURS</a>
+                <a href="# " class="legal-link ">CONDITIONS GÉNÉRALES DE VENTE</a>
+                <a href="# " class="legal-link ">PROTECTION DES DONNÉES PERSONNELLES</a>
+                <a href="# " class="legal-link ">MENTION LÉGALES</a>
+                <select name="country " id="country ">
+                    <option value="select ">France</option>
+                </select>
+            </div>
+        </footer>
+    </body>
+
+</html>
